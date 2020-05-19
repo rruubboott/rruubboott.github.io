@@ -17,6 +17,6 @@ btn.addEventListener("click",function(){
 regen.addEventListener("click", function(e){
   epiphany.classList.remove("show");
   this.style.display = "none";
-  btn.style.display = "block";
+  btn.style.display = "";
   e.preventDefault();
 })
