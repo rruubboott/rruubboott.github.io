@@ -2,6 +2,8 @@ let btn = document.querySelector("button");
 
 let regen = document.querySelector("#regen");
 
+regen.style.display = "none";
+
 let pronouns = ["You", "He","She","They","I","Me"];
 
 let actions = ["Are Going To", "Might","Could","Should"];
