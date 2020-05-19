@@ -11,10 +11,12 @@ btn.addEventListener("click",function(){
   epiphany.classList.add("show");
   regen.style.display = "block";
   console.log("working");
+  btn.style.display = "none";
 })
 
 regen.addEventListener("click", function(e){
   epiphany.classList.remove("show");
   this.style.display = "none";
+  btn.style.display = "block";
   e.preventDefault();
 })
