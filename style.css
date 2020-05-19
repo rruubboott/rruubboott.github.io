@@ -1,0 +1,29 @@
+body {
+ font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+ }
+
+ #container {
+ width:90%;
+ margin:1rem auto;
+ text-align: center;
+ }
+
+ h1 {
+ font-size: 4rem;
+ }
+
+ h2 {
+   font-size:6rem;
+ }
+
+ button {
+   padding:1rem;
+   background-color: #fff;
+   border:3px solid #000;
+   font-size:1.5rem;
+   cursor: pointer;
+ }
+
+ button:hover {
+   background-color:#aaa;
+ }
