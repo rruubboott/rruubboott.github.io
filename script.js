@@ -12,11 +12,11 @@ let epiphany = document.querySelector("#epiphany");
 
 btn.addEventListener("click",function(){
   epiphany.textContent = "You Are Going To Die";
-
+  regen.style.display = "block";
 })
 
 regen.addEventListener("click", function(e){
   epiphany.textContent = "";
-  console.log("Test");
+  this.style.display = "none";
   e.preventDefault;
 })
