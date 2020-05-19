@@ -17,5 +17,6 @@ btn.addEventListener("click",function(){
 
 regen.addEventListener("click", function(e){
   epiphany.textContent = "";
+  console.log("Test");
   e.preventDefault;
 })
