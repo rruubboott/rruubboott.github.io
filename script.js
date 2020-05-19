@@ -13,12 +13,12 @@ let event = ["Die","Live","Fall In Love","Live Forever"];
 let epiphany = document.querySelector("#epiphany");
 
 btn.addEventListener("click",function(){
-  epiphany.textContent = "You Are Going To Die";
+  epiphany.classList.add("show");
   regen.style.display = "block";
 })
 
 regen.addEventListener("click", function(e){
-  epiphany.textContent = "";
+  epiphany.classList.remove("show");
   this.style.display = "none";
   e.preventDefault();
 })
